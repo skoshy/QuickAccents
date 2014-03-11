@@ -1,95 +1,190 @@
-`:: 
+SC029:: 
+
 SendInput `` 
+
 return 
- 
-+` UP::
+
+
+
++SC029 UP::
+
 if shifted != true 
+
 SendInput ~ 
+
 else 
+
 shifted = false 
+
 return 
+
  
-` & a::
+
+SC029 & a::
+
 if CharSendMode = acute
+
 	CharSend("á", "Á")
+
 else if CharSendMode = umlaut
+
 	CharSend("ä", "Ä")
+
 else if CharSendMode = grave
+
 	CharSend("à", "À") 
+
 return  
+
   
-` & e::
+
+SC029 & e::
+
 if CharSendMode = acute
+
 	CharSend("é", "É")  
+
 else if CharSendMode = umlaut
+
 	CharSend("ë", "Ë")  
+
 else if CharSendMode = grave
+
 	CharSend("è", "È") 
+
 return  
+
   
-` & i::  
+
+SC029 & i::  
+
 if CharSendMode = acute
+
 	CharSend("í", "Í")  
+
 else if CharSendMode = umlaut
+
 	CharSend("ï", "Ï")  
+
 else if CharSendMode = grave
+
 	CharSend("ì", "Ì") 
+
 return  
+
   
-` & o:: 
+
+SC029 & o:: 
+
 if CharSendMode = acute 
+
 	CharSend("ó", "Ó")  
+
 else if CharSendMode = umlaut
+
 	CharSend("ö", "Ö")  
+
 else if CharSendMode = grave
+
 	CharSend("ò", "Ò")  
+
 return  
+
   
-` & u::  
+
+SC029 & u::  
+
 if CharSendMode = acute
+
 	CharSend("ú", "Ú")  
+
 else if CharSendMode = umlaut
+
 	CharSend("ü", "Ü")  
+
 else if CharSendMode = grave
+
 	CharSend("ù", "Ù")  
+
 return  
 
-` & y::
+
+
+SC029 & y::
+
 CharSend("Ψ", "Ψ")  
+
 return  
+
   
-` & n::
+
+SC029 & n::
+
 CharSend("ñ", "Ñ")  
+
 return  
+
   
-` & c::  
+
+SC029 & c::  
+
 CharSend("ç", "Ç")  
+
 return  
+
   
-` & 1::  
+
+SC029 & 1::  
+
 CharSend("¡", "¡")  
+
 return  
+
   
-` & /::  
+
+SC029 & /::  
+
 CharSend("¿", "¿")  
+
 return 
+
  
-^` UP:: 
+
+^SC029 UP:: 
+
 SendInput ~ 
+
 return 
+
  
 
-` & Left:: 
+
+
+SC029 & Left:: 
+
 ShowText("Acute Mode", 1,20,"green") 
+
 CharSendMode = acute
+
 return
 
-` & Right:: 
+
+
+SC029 & Right:: 
+
 ShowText("Umlaut Mode", 1,20,"blue") 
+
 CharSendMode = umlaut
+
 return
 
-` & Up:: 
+
+
+SC029 & Up:: 
+
 ShowText("Grave Mode", 1,20,"purple") 
+
 CharSendMode = grave
+
 return
+
