@@ -1,4 +1,4 @@
-ShowText(text, overTaskbar=0, size=40, color="red", x="center", y=550, manualRemove=0) {
+﻿ShowText(text, overTaskbar=0, size=40, color="red", x="center", y=550, manualRemove=0) {
 Gui, 1:Destroy 
 Gui, 1:font, s%size% c%color% bold, Verdana 
 Gui, 1:Add, Text, h%size% x0 y0 Center, %text% 
