@@ -11,6 +11,6 @@ SetWorkingDir %A_ScriptDir%
 ; Initial Settings
 CharSendMode = acute
 
-#Include ShowText.ahk
+#Include TransSplashText.ahk
 #Include KeyBindings.ahk
 #Include CharSend.ahk
