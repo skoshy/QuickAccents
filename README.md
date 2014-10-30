@@ -6,7 +6,7 @@ Makes typing characters with accents simple. Written in AutoHotkey, this script 
 Instructions
 =======
 - Press the accent key + a letter.
-- Press the accent key + Left, Up, or Down to change the accent mode to acute, grave, or umlaut.
+- Press the accent key + Left, Up, or Down to change the accent mode to acute, umlaut, or grave.
 
 Version History
 ===============
