@@ -13,3 +13,8 @@ Version History
 
 - Version 0.1 - 2012-07-13
   - Initial commit of files
+
+Credits
+=======
+
+- specter333 - thanks for the Splash Text function - http://www.autohotkey.com/board/topic/70145-splash-text-with-shadow-and-transparent-background-function/
