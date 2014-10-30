@@ -85,11 +85,11 @@ CharSendMode = acute
 return
 
 SC029 & Right:: 
-ShowText("Umlaut Mode", 1,20,"blue")
-CharSendMode = umlaut
+ShowText("Grave Mode", 1,20,"blue")
+CharSendMode = grave
 return
 
 SC029 & Up:: 
-ShowText("Grave Mode", 1,20,"purple")
-CharSendMode = grave
+ShowText("Umlaut Mode", 1,20,"purple")
+CharSendMode = umlaut
 return
