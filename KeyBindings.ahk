@@ -80,16 +80,16 @@ return
  
 
 SC029 & Left:: 
-ShowText("Acute Mode", 1,20,"green")
+ShowText("Acute Mode (á)", 1,20,"green")
 CharSendMode = acute
 return
 
 SC029 & Right:: 
-ShowText("Grave Mode", 1,20,"blue")
+ShowText("Grave Mode (à)", 1,20,"blue")
 CharSendMode = grave
 return
 
 SC029 & Up:: 
-ShowText("Umlaut Mode", 1,20,"purple")
+ShowText("Umlaut Mode (ä)", 1,20,"purple")
 CharSendMode = umlaut
 return
